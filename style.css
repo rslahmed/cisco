@@ -2156,7 +2156,7 @@ section.get-start-area {
     font-size: 18px;
     line-height: 60px;
     margin-bottom: 5px;
-    background-color: #ea4b8c;
+    background-color: #ff7045;
     display: block;
     padding-left: 30px;
     min-width: 240px;
@@ -2165,7 +2165,6 @@ section.get-start-area {
     right: -170px;
     -webkit-transition: .5s;
     transition: .5s;
-    border: 1px solid #ea4b8c;
 }
 
 .sidebar-menu ul li a i {
@@ -2334,7 +2333,7 @@ padding-bottom: 30px;
     padding-bottom: 30px;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {
+/* .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {
     background-color: #ff7045;
 }
 
@@ -2347,4 +2346,4 @@ padding-bottom: 30px;
 }
 .navbar-inverse .navbar-nav>.active>a:hover{
 	background-color: #ff7045;
-}
+} */
