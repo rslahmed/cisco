@@ -2294,11 +2294,6 @@ padding-bottom: 30px;
 }
 
 /*resources area*/
-
-.Resources-area {
-    padding-bottom: 35px;
-}
-
 .Resources-area .section-title {
     text-align: left;
 }
@@ -2323,4 +2318,14 @@ padding-bottom: 30px;
 .pg1-btn.text-center a {
     display: inline-block;
     margin-right: 15px;
+}
+
+/* patnar area */
+.partnar-content p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.partnar-area {
+    padding-bottom: 30px;
 }
