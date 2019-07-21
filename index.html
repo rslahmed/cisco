@@ -249,9 +249,9 @@
 	<nav class="navbar navbar-inverse" id="navbar" style="background:#fff;  border-color:#fff;">
 		<div class="container">
 			<ul class="nav navbar-nav">
-				<li class="pg1"><a href="#pg1">Banifites</a></li>
-				<li class="pg2"><a href="#pg2">InsideCase</a></li>
-				<li class="pg3"><a href="#pg3">Studies</a></li>
+				<li class="active"><a href="#pg1">Banifites</a></li>
+				<li><a href="#pg2">InsideCase</a></li>
+				<li><a href="#pg3">Studies</a></li>
 				<li><a href="#pg4">Resources</a></li>
 				<li><a href="#pg5">Partners</a></li>
 			</ul>
@@ -682,16 +682,22 @@
 						<!-- single resources item -->
 						<div class="resources-item">
 							<h3>Videos and webinars</h3>
-							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">TWTV: Introduction to Software-Defined Access on TechWiseTV </a></p>
-							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">Tech Field Day SD-Access video </a></p>
-							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">TWTV: Extending Intent: SD-Access for IoT and Distributed Campus </a></p>
-							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">Children’s Hospital Los Angeles case study </a>(PDF - 103 KB)<i
-									class="fa fa-video-camera" aria-hidden="true"></i></p>
-							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">The Benefits of Cisco DNA with SD-Access (Interactive showing difference)
-								</a></p>
-							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">No Stress with SD-Access video </a><i class="fa fa-video-camera"
+							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">TWTV: Introduction to
+									Software-Defined Access on TechWiseTV </a></p>
+							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">Tech Field Day SD-Access
+									video </a></p>
+							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">TWTV: Extending Intent:
+									SD-Access for IoT and Distributed Campus </a></p>
+							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">Children’s Hospital Los
+									Angeles case study </a>(PDF - 103 KB)<i class="fa fa-video-camera"
 									aria-hidden="true"></i></p>
-							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">Catalyst 9000 Series and SD-Access TechWiseTV</a></p>
+							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">The Benefits of Cisco
+									DNA with SD-Access (Interactive showing difference)
+								</a></p>
+							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">No Stress with SD-Access
+									video </a><i class="fa fa-video-camera" aria-hidden="true"></i></p>
+							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">Catalyst 9000 Series and
+									SD-Access TechWiseTV</a></p>
 						</div>
 						<!-- single resource item end -->
 						<!-- single resources item -->
@@ -905,30 +911,15 @@
 					}
 
 
-					var scrollPos = $(document).scrollTop();
-					if (scrollPos >= pg1 && scrollPos < top2) {
-						$('.pg1').addClass('active');
-					} else if (scrollPos >= pg2 && scrollPos < top3) {
-						$('.pg2').addClass('active');
-					} else if (scrollPos >= pg3) {
-						$('.pg3').addClass('active');
-					}
+				});
 
+				$('.nav li').on('click', function (event) {
+					$(this).siblings('.active').removeClass('active');
+					$(this).addClass('active');
 				});
 
 			});
 		})(jQuery)
-
-
-
-
-
-
-
-		// $('.nav li').on('click', function(event) {
-		// 	$(this).siblings('.active').removeClass('active');
-		// 	$(this).addClass('active');
-		// });
 	</script>
 
 </body>
