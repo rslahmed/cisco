@@ -2266,6 +2266,10 @@ padding-bottom: 30px;
     padding: 15px 0px;
 }
 
+.hg {
+    background-color: #F2F2F2;
+    padding-bottom: 65px;
+}
 
 
 /*cadentic abuot*/
@@ -2289,17 +2293,23 @@ padding-bottom: 30px;
     padding-bottom: 25px;
 }
 
-
-
 /*resources area*/
 
+.Resources-area {
+    padding-bottom: 35px;
+}
+
+.Resources-area .section-title {
+    text-align: left;
+}
 .resources-item h3 {
     font-size: 28px;
     padding-bottom: 10px;
 }
 
-.resources-item p {
+.resources-item p a {
     font-size: 18px;
+    padding-bottom: 4px;
 }
 
 .resources-item i {
@@ -2308,11 +2318,6 @@ padding-bottom: 30px;
 
 .resources-item {
    padding-bottom: 10px;
-}
-
-.hg {
-    background-color: #F2F2F2;
-    padding-bottom: 65px;
 }
 
 .pg1-btn.text-center a {

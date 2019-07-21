@@ -203,8 +203,8 @@
 	<div class="sidebar-menu">
 		<ul>
 			<li><a href="#"><i class="fa fa-users"></i> Service</a></li>
-			<li><a href="#"><i class="fa fa-star"></i> ROI Calculator</a></li>
-			<li><a href="#"><i class="fa fa-star"></i> Upgrade Guide</a></li>
+			<li><a href="#"><i class="fa fa-line-chart" aria-hidden="true"></i> ROI Calculator</a></li>
+			<li><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i> Upgrade Guide</a></li>
 			<li><a href="#"><i class="fa fa-desktop"></i> Software Demo</a></li>
 		</ul>
 	</div>
@@ -237,7 +237,7 @@
 							secure services faster.</p>
 					</div>
 					<div class="soft-define-btn">
-						<a id="videoplay" class="default-btn" data-video-url="images/video.mp4">Watch overview video</a>
+						<a class="default-btn videoplay" data-video-url="images/video.mp4">Watch overview video</a>
 						<a href="#" class="second-btn">Read news blog</a>
 					</div>
 				</div>
@@ -249,9 +249,9 @@
 	<nav class="navbar navbar-inverse" id="navbar" style="background:#fff;  border-color:#fff;">
 		<div class="container">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="#pg1">Banifites</a></li>
-				<li><a href="#pg2">InsideCase</a></li>
-				<li><a href="#pg3">Studies</a></li>
+				<li class="pg1"><a href="#pg1">Banifites</a></li>
+				<li class="pg2"><a href="#pg2">InsideCase</a></li>
+				<li class="pg3"><a href="#pg3">Studies</a></li>
 				<li><a href="#pg4">Resources</a></li>
 				<li><a href="#pg5">Partners</a></li>
 			</ul>
@@ -606,7 +606,7 @@
 	</div>
 
 	<!-- Resources-area -->
-	<div class=" Resources-area " id="pg4">
+	<div class=" Resources-area " id="pg2">
 		<div class="container">
 			<!-- section title -->
 			<div class="section-title">
@@ -618,8 +618,8 @@
 						<!-- single resources item -->
 						<div class="resources-item">
 							<h3>At-a-Glances</h3>
-							<p> <a href="#">SD-Access At-a-Glance </a><span>(PDF - 103 KB)<i
-										class="fa fa-star"></i></span></p>
+							<p> <a href="#">SD-Access At-a-Glance </a><span>(PDF - 103 KB)<i class="fa fa-file-pdf-o"
+										aria-hidden="true"></i></span></p>
 						</div>
 						<!-- single resource item end -->
 						<!-- single resources item -->
@@ -636,17 +636,17 @@
 						<!-- single resource item end -->
 						<!-- single resources item -->
 						<div class="resources-item">
-							<h3>At-a-Glances</h3>
+							<h3>Guides</h3>
 							<p> <a href="#">Cisco DNA Center Fast Start Use Case: Software-Defined Access Guide </a></p>
 							<p> <a href="#">Cisco DNA Center Fast Start Use Case: Cisco ISE Integration Guide </a></p>
 							<p> <a href="#">SD-Access Segmentation Design Guide </a><span>(PDF - 103 KB)<i
-										class="fa fa-star"></i></span></p>
-							<p> <a href="#">SD-Access Design Guide </a><span>(PDF - 103 KB)<i
-										class="fa fa-star"></i></span></p>
+										class="fa fa-file-pdf-o" aria-hidden="true"></i></span></p>
+							<p> <a href="#">SD-Access Design Guide </a><span>(PDF - 103 KB)<i class="fa fa-file-pdf-o"
+										aria-hidden="true"></i></p>
 							<p> <a href="#">SD-Access Deployment Guide </a><span>(PDF - 103 KB)<i
-										class="fa fa-star"></i></span></p>
+										class="fa fa-file-pdf-o" aria-hidden="true"></i></span></p>
 							<p> <a href="#">SD-Access Deployment Guide </a><span>(PDF - 103 KB)<i
-										class="fa fa-star"></i></span></p>
+										class="fa fa-file-pdf-o" aria-hidden="true"></i></span></p>
 							<p> <a href="#">SD-Access Upgrade Guide </a></p>
 							<p> <a href="#">SD-Access Ordering Guide</a></p>
 
@@ -654,15 +654,81 @@
 						<!-- single resource item end -->
 						<!-- single resources item -->
 						<div class="resources-item">
-							<h3>At-a-Glances</h3>
-							<p> <a href="#">SD-Access At-a-Glance </a><span>(PDF - 103 KB)<i
-										class="fa fa-star"></i></span></p>
+							<h3>Overviews</h3>
+							<p> <a href="#">Cisco Software-Defined Access: Enabling Intent Based Networking eBook
+								</a><span>(PDF - 103 KB)<i class="fa fa-star"></i></span></p>
+							<p> <a href="#">SD-Access Services overview </a><span>(PDF - 103 KB)<i
+										class="fa fa-file-pdf-o" aria-hidden="true"></i></span></p>
+							<p> <a href="#">SD-Access Solution overview </a><span>(PDF - 103 KB)<i
+										class="fa fa-file-pdf-o" aria-hidden="true"></i></span></p>
+							<p> <a href="#">The Cisco DNA-Ready Infrastructure </a><span>(PDF - 103 KB)<i
+										class="fa fa-file-pdf-o" aria-hidden="true"></i></span></p>
+							<p> <a href="#">What is SD-Access </a></p>
 						</div>
 						<!-- single resource item end -->
 					</div>
 
 				</div>
-				<div class="col-md-6"></div>
+				<div class="col-md-6">
+					<div class="Resources-right-section">
+						<!-- single resources item -->
+						<div class="resources-item">
+							<h3>Podcasts</h3>
+							<p> <a href="#">Take the Complexity out of your Network with Software-Defined Access </a>
+							</p>
+							<p>(PDF - 103 KB)<i class="fa fa-video-camera" aria-hidden="true"></i></p>
+						</div>
+						<!-- single resource item end -->
+						<!-- single resources item -->
+						<div class="resources-item">
+							<h3>Videos and webinars</h3>
+							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">TWTV: Introduction to Software-Defined Access on TechWiseTV </a></p>
+							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">Tech Field Day SD-Access video </a></p>
+							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">TWTV: Extending Intent: SD-Access for IoT and Distributed Campus </a></p>
+							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">Children’s Hospital Los Angeles case study </a>(PDF - 103 KB)<i
+									class="fa fa-video-camera" aria-hidden="true"></i></p>
+							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">The Benefits of Cisco DNA with SD-Access (Interactive showing difference)
+								</a></p>
+							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">No Stress with SD-Access video </a><i class="fa fa-video-camera"
+									aria-hidden="true"></i></p>
+							<p> <a href="#" class="videoplay" data-video-url="images/video.mp4">Catalyst 9000 Series and SD-Access TechWiseTV</a></p>
+						</div>
+						<!-- single resource item end -->
+						<!-- single resources item -->
+						<div class="resources-item">
+							<h3>FAQs</h3>
+							<p> <a href="#">SD-Access FAQs </a></p>
+						</div>
+						<!-- single resource item end -->
+						<!-- single resources item -->
+						<div class="resources-item">
+							<h3>White papers</h3>
+							<p> <a href="#">SD-Access Solution white paper </a><span>(PDF - 103 KB)<i
+										class="fa fa-file-pdf-o" aria-hidden="true"></i></span></p>
+							<p> <a href="#">Miercom white paper: Enterprise Campus Architecture Comparative Report vs.
+									HPE and Huawei </a><span>(PDF - 103 KB)<i class="fa fa-file-pdf-o"
+										aria-hidden="true"></i></span></p>
+							<p> <a href="#">Release Notes for SD-Access 1.2.x </a><span>(PDF - 103 KB)<i
+										class="fa fa-file-pdf-o" aria-hidden="true"></i></span></p>
+							<p> <a href="#">SD-Access: Network as a Sensor and Encrypted Traffic Analytics Integration
+									White Paper</a></p>
+							<p> <a href="#">Network Test: Cisco SD-Access: Enterprise Networking Made Fast and
+									Flexible</a><span>(PDF - 103 KB)<i class="fa fa-file-pdf-o"
+										aria-hidden="true"></i></span></p>
+							<p> <a href="#">IDC Report: Cisco SD-Access. A single fabric to support Digital
+									Transformation</a></p>
+
+						</div>
+						<!-- single resource item end -->
+						<!-- single resources item -->
+						<div class="resources-item">
+							<h3>You may also like...</h3>
+							<p> <a href="#">Cisco Digital Network Architecture </a></p>
+						</div>
+						<!-- single resource item end -->
+					</div>
+
+				</div>
 			</div>
 		</div>
 	</div>
@@ -820,42 +886,49 @@
 				//Initiat WOW JS
 				new WOW().init();
 
+				new ModalVideo('.videoplay');
+
+				var pg1 = $('#pg1').offset().top;
+				var pg2 = $('#pg2').offset().top;
+				var pg3 = $('#pg3').offset().top;
+
+				$(window).scroll(function () {
+					var navbar = document.getElementById('navbar');
+					var sticky = navbar.offsetTop;
+
+
+
+					if ($(window).scrollTop() > sticky) {
+						$(".navbar").addClass("sticky")
+					} else {
+						$(".navbar").removeClass("sticky")
+					}
+
+
+					var scrollPos = $(document).scrollTop();
+					if (scrollPos >= pg1 && scrollPos < top2) {
+						$('.pg1').addClass('active');
+					} else if (scrollPos >= pg2 && scrollPos < top3) {
+						$('.pg2').addClass('active');
+					} else if (scrollPos >= pg3) {
+						$('.pg3').addClass('active');
+					}
+
+				});
+
 			});
 		})(jQuery)
 
 
 
-		$(window).scroll(function () {
-			var navbar = document.getElementById('navbar');
-			var sticky = navbar.offsetTop;
 
-			if ($(window).scrollTop() > sticky) {
-				$(".navbar").addClass("sticky")
-			} else {
-				$(".navbar").removeClass("sticky")
-			}
 
-		});
 
-		var player;
 
-		function onYouTubeIframeAPIReady() {
-			player = new YT.Player('player', {
-				height: '390',
-				width: '640',
-				videoId: 'M7lc1UVf-VE',
-				events: {
-					'onReady': onPlayerReady,
-					'onStateChange': onPlayerStateChange
-				}
-			});
-		}
-		new ModalVideo('#videoplay');
-
-		$('.nav li').on('click', function(event) {
-			$(this).siblings('.active').removeClass('active');
-			$(this).addClass('active');
-		});
+		// $('.nav li').on('click', function(event) {
+		// 	$(this).siblings('.active').removeClass('active');
+		// 	$(this).addClass('active');
+		// });
 	</script>
 
 </body>
