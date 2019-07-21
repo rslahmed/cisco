@@ -851,6 +851,11 @@
 			});
 		}
 		new ModalVideo('#videoplay');
+
+		$('.nav li').on('click', function(event) {
+			$(this).siblings('.active').removeClass('active');
+			$(this).addClass('active');
+		});
 	</script>
 
 </body>
