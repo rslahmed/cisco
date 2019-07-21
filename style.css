@@ -1877,6 +1877,7 @@ a:hover {
 	border: none;
 }
 
+
 .multi-auth input[type='submit'] {
 	color: #fff;
 	font-size: 19px;
@@ -1894,6 +1895,8 @@ a:hover {
 }
 
 
+
+
 .multi-auth a {
 	color: #000;
 }
@@ -1902,6 +1905,7 @@ a:hover {
 .multi-auth a:hover {
 	color: red;
 }
+
 
 
 /* new work from alamin */
@@ -1931,8 +1935,8 @@ a{
 }
 
 a.default-btn {
-    background-color: #ff7045;
-    border: 1px solid #ff7045;
+    background-color: #4d41b3;
+    border: 1px solid #4d41b3;
     color: #fff;
     border-radius: 30px;
     padding: 5px 15px;
@@ -1947,13 +1951,13 @@ a.default-btn {
 
 a.default-btn:hover {
     color: #fff;
-    background: #f95726;
+    background: #6c669f;
 }
 
 a.second-btn {
     font-size: 18px;
     background: #fff;
-    border: 1px solid #f95726;
+    border: 1px solid #5d559d;
     border-radius: 30px;
     padding: 5px 15px;
     transition: .3s;
@@ -1962,12 +1966,11 @@ a.second-btn {
     -ms-transition: .3s;
     -o-transition: .3s;
     display: inline-block;
-    color: #ff7045;
 }
 
 a.second-btn:hover {
     color: #fff;
-    background: #f95726;
+    background: #5d559d;
 }
 
 /* custom css */
@@ -2105,8 +2108,8 @@ section.success-area {
 
 .see-all-btn a {
     font-size: 18px;
-    background-color: #ff7045;
-    border: 1px solid #ff7045;
+    background-color: #4d41b3;
+    border: 1px solid #4d41b3;
     color: #fff;
     border-radius: 30px;
     padding: 8px 15px;
@@ -2329,4 +2332,19 @@ padding-bottom: 30px;
 
 .partnar-area {
     padding-bottom: 30px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {
+    background-color: #ff7045;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {
+    background-image: -webkit-gradient(linear,left top, left bottom,color-stop(0, #ff7045),to(#ff7045));
+    background-image: linear-gradient(to bottom,#ff7045 0,#ff7045 100%);
+    background-repeat: repeat-x;
+    -webkit-box-shadow: inset 0 3px 9px #ff7045;
+            box-shadow: inset 0 3px 9px #ff7045;
+}
+.navbar-inverse .navbar-nav>.active>a:hover{
+	background-color: #ff7045;
 }
