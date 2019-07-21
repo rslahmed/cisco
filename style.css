@@ -1919,6 +1919,7 @@ a{
 	-moz-transition: .3s;
 	-ms-transition: .3s;
 	-o-transition: .3s;
+	color: #4c40b2;
 }
 .section-title {
     padding-top: 55px;
@@ -2055,8 +2056,8 @@ section.cta-area {
 }
 
 a.read-btn {
-    background: #6ebe4a;
-    border: 1px solid #6ebe4a;
+    background: #ff7045;
+    border: 1px solid #ff7045;
     padding: 8px 15px;
     border-radius: 30px;
     color: #fff;
@@ -2092,6 +2093,7 @@ section.success-area {
 .success-content p {
     font-size: 18px;
     margin-bottom: 24px;
+    font-weight: 300;
 }
 
 .success-content a {
@@ -2207,6 +2209,7 @@ padding-bottom: 30px;
 .sd-access-content p {
     line-height: 30px;
     font-size: 18px;
+    font-weight: 300;
 }
 
 
@@ -2255,7 +2258,7 @@ padding-bottom: 30px;
     font-size: 18px;
     color: #000;
     line-height: 30px;
-    
+    font-weight: 300;
 }
 .csd-flexibility-btn{
 	padding-top: 23px;
@@ -2287,6 +2290,7 @@ padding-bottom: 30px;
 .cadentic-about-content ul li {
     padding-bottom: 10px;
     font-size: 18px;
+    font-weight: 300;
 }
 
 .cadentic-about-content {
