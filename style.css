@@ -1934,8 +1934,8 @@ a{
 }
 
 a.default-btn {
-    background-color: #4d41b3;
-    border: 1px solid #4d41b3;
+    background-color: #ff7045;
+    border: 1px solid #ff7045;
     color: #fff;
     border-radius: 30px;
     padding: 5px 15px;
@@ -1950,13 +1950,13 @@ a.default-btn {
 
 a.default-btn:hover {
     color: #fff;
-    background: #6c669f;
+    background: #f95726;
 }
 
 a.second-btn {
     font-size: 18px;
     background: #fff;
-    border: 1px solid #5d559d;
+    border: 1px solid #f95726;
     border-radius: 30px;
     padding: 5px 15px;
     transition: .3s;
@@ -1965,11 +1965,12 @@ a.second-btn {
     -ms-transition: .3s;
     -o-transition: .3s;
     display: inline-block;
+    color: #ff7045;
 }
 
 a.second-btn:hover {
     color: #fff;
-    background: #5d559d;
+    background: #f95726;
 }
 
 /* custom css */
@@ -2057,7 +2058,7 @@ section.cta-area {
 
 a.read-btn {
     background: #ff7045;
-    border: 1px solid #ff7045;
+    border: 1px solid ##ff7045;
     padding: 8px 15px;
     border-radius: 30px;
     color: #fff;
@@ -2107,8 +2108,8 @@ section.success-area {
 
 .see-all-btn a {
     font-size: 18px;
-    background-color: #4d41b3;
-    border: 1px solid #4d41b3;
+    background-color: #ff7045;
+    border: 1px solid #ff7045;
     color: #fff;
     border-radius: 30px;
     padding: 8px 15px;
